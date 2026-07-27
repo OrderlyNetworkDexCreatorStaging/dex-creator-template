@@ -55,3 +55,10 @@ div[data-section-name='extendLeftTradingLine'] {
 [data-name="legend-source-exchange"] {
     display: none !important;
 }
+[data-name="legend-source-title"] {
+    display: none !important;
+}
+
+[data-name="legend-source-interval"] {
+    display: none !important;
+}
