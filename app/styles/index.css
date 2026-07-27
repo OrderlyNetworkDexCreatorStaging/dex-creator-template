@@ -11,3 +11,15 @@
   display: none;
 }
 
+/* hide PML labels */
+.your-parent-selector .oui-bg-line.oui-text-base-contrast-36.oui-ms-1 {
+  display: none !important;
+}
+
+[id^="radix-"][id$="-content-all"] table td .oui-bg-line.oui-text-base-contrast-36 {
+  display: none !important;
+}
+
+.oui-flex.oui-gap-1:has(.oui-bg-line.oui-text-base-contrast-36) {
+  display: none !important;
+}
